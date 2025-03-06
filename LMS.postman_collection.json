@@ -1,0 +1,388 @@
+{
+	"info": {
+		"_postman_id": "faa72f9e-4123-4ffb-8647-eb104f0b79a7",
+		"name": "LMS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42900285"
+	},
+	"item": [
+		{
+			"name": "GetReqs",
+			"item": [
+				{
+					"name": "GetMain",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBooks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBooksId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/books?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"books"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetReaders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/readers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"readers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetReadersId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/readers?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"readers"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBorrowings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/borrowings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"borrowings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBorrowingsId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/borrowings?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"borrowings"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PostReqs",
+			"item": [
+				{
+					"name": "CreateBook",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateReader",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/readers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"readers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateBorrowing",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/borrowings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"borrowings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PutReqs",
+			"item": [
+				{
+					"name": "EditBook",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/books?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"books"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateReader",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/readers?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"readers"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateBorrowing",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/borrowings?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"borrowings"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DeleteReqs",
+			"item": [
+				{
+					"name": "DeleteBook",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/books?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"books"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteReader",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/readers?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"readers"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteBorrowing",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5162/borrowings?id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5162",
+							"path": [
+								"borrowings"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
