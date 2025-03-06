@@ -15,7 +15,7 @@ app.MapGet("/books/{id}", (HttpContext context) =>
 });
 app.MapPost("/books", () =>
 {
-    return "This is post request!";
+    return "This is post requesdt!";
 });
 
 app.Run();

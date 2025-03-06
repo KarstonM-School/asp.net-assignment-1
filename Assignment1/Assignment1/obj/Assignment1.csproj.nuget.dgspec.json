@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1.csproj": {}
+    "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1\\Assignment1.csproj": {}
   },
   "projects": {
-    "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1.csproj": {
+    "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1\\Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1.csproj",
+        "projectUniqueName": "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1\\Assignment1.csproj",
         "projectName": "Assignment1",
-        "projectPath": "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1.csproj",
+        "projectPath": "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1\\Assignment1.csproj",
         "packagesPath": "C:\\Users\\Karston\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\obj\\",
+        "outputPath": "C:\\School\\Asp .Net\\Assignments\\Assignment 1\\asp.net-assignment-1\\Assignment1\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
