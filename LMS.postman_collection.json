@@ -253,7 +253,7 @@
 					"response": []
 				},
 				{
-					"name": "CreateReader",
+					"name": "EditReader",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -278,7 +278,7 @@
 					"response": []
 				},
 				{
-					"name": "CreateBorrowing",
+					"name": "EditBorrowing",
 					"request": {
 						"method": "PUT",
 						"header": [],
